@@ -1,7 +1,7 @@
 %{
 %}
 %%
-[0-9]+ {printf("digit");}
+[0-9]+ {printf("digit.");}
 .+ {printf("not digit");}
 %%
 int yywrap(){}
