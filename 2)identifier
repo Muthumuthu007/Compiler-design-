@@ -2,7 +2,7 @@
 %}
 %%
 [A-Z a-z_][a-z A-z 0-9]+ {printf("\n the given input is identifier");}
-.+ {printf("\n the given input is not identifier");}
+.+ {printf("\n the given input is notm identifier");}
 %%
 int yywrap(void){}
 int main()
