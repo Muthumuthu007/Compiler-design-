@@ -5,7 +5,7 @@ char word [] = "geeks";
 int count = 0; 
 %}
 %%
-[a-zA-Z]+    { if(strcmp(yytext, word)==0)
+[a-zA-Z]+    { if(strcmp(yytext,, word)==0)
                    count++; }
 .  ;        
 %%
