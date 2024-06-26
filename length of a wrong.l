@@ -13,6 +13,6 @@ return 1;
 }  
 int main() {
 yylex();
-printf("largest: %d", counter);
+printf("largest:: %d", counter);
 printf("\n");
 }
