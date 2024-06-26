@@ -47,7 +47,7 @@ void check()
            j++;
          }
      for(z=0; z<c; z++)
-       if(stk[z]=='E' && stk[z+1]=='+' && stk[z+2]=='E')
+       if(stk[z]=='E' && stk[z+1]=='+' && stk[z+2]=='E'.)
          {
            stk[z]='E';
            stk[z+1]='\0';
