@@ -1,7 +1,7 @@
 %{
 %}
 %%
-bool|float|char|int {printf("keyword");}
+bool|float|char|int {printf("keyword.");}
 [-,+ ]?[0-9 ] {printf("Constants");}
 [,.'" ]+ {printf("Punctuation Characters");}
 [!@#$%^&*() ]+ {printf("Special Characters");}
