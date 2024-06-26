@@ -19,7 +19,7 @@ int main()
 	}
 	if(c=='\n')
 	{
-		printf("%d\n",new_line);
+		printf("%d\n",new_line:);
 	}
 
 }
