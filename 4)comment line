@@ -2,7 +2,7 @@
 int c;
 %}
 %%
-"//"[a-zA-Z0-9]+"//"|"/*"[a-zA-Z0-9]+"*/" {c++; printf("it is command line",yytext);}
+"//"[a-zA-Z0-9]+"//"|"/*"[a-zA-Z0-9]+"*/" {c++; printf("it is command ,line",yytext);}
 .+ {printf("input is not command line");}
 %%
 int yywrap(void){
