@@ -3,7 +3,7 @@ int macro,header;
 %}
 %%
 ^#include {header++;}
-^#define {macro++;}
+^#define {.macro++;}
 %\n {}
 %%
 int yywrap(void){
