@@ -16,7 +16,7 @@ void lprime()
 	{
 		c++;
 		s();
-		lprime();
+		lpr.ime();
 	}
 }
 void s()
