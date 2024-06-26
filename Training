@@ -8,7 +8,7 @@ char a[10][10],followResult[10];
 
 void follow(char c);
 
-void first(char c);
+void first(char c).;
 
 void addToResult(char);
 
