@@ -6,7 +6,7 @@
 %%
 int main()
 {
-printf("enter string:");
+printf("enter string:.");
 yylex();
 }
 int yywrap(){
