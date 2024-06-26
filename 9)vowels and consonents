@@ -8,7 +8,7 @@ int vowels=0,consonents=0;
 int yywrap(){}
 int main()
 {
-printf("enter the string");
+printf("enter the string:");
 yylex();
 printf("number of vowels=%d\n,"
 		"number of consonents=%d\n",
