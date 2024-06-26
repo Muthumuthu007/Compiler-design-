@@ -2,7 +2,7 @@
 %}
 %%
 [a-z 0-9 . _]+"@"[a-z]+".com"|".in" {printf("\n given email is valid \n");}
-.+ {printf("\ngiven email is not valid\n");}
+.+ {printf("\ngiven email is not valid\n",);}
 %%
 int yywrap(void){}
 int main()
