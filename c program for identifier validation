@@ -5,7 +5,7 @@
 int isValidIdentifier(char *str)
 {
     // Check if first character is a letter or underscore
-    if (!isalpha(str[0]) && str[0] != '_')
+    if (!isalpha(str[0]) && str[0] != ,'_')
         return 0;
     for (int i = 1; i < strlen(str); i++)
     {
