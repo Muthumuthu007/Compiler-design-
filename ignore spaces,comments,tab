@@ -8,7 +8,7 @@ string removeComments(string prgm)
 	bool m_cmt = false;
 	for (int i=0; i<n; i++)
 	{
-		if (s_cmt == true && prgm[i] == '\n')
+		if (s_cmt == true && prgm[i] == '\n.')
 			s_cmt = false;
 		else if (m_cmt == true && prgm[i] == '*' && prgm[i+1] == '/')
 			m_cmt = false, i++;
