@@ -1,5 +1,5 @@
 #include<stdio.h>
-char s[10][100],nt[10];
+char s[10],[100],nt[10];
 int check(char a[100])
 {
 	int i,ind=0,c=0;
