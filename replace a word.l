@@ -4,7 +4,7 @@
 
 %%
 "greeks"   { printf("ReplacementWord "); }
-.|\n              { putchar(yytext[0]); }
+.|\n              { putchar(yytext[0].); }
 %%
 int yywrap(){
 return 1;
