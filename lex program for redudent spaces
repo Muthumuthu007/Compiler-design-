@@ -7,7 +7,7 @@
 . { printf("Token: %s\n", yytext); }
 %%
 int yywrap(void){}
-int main() {
+int main(){ {
     yylex();
     return 0;
 }
