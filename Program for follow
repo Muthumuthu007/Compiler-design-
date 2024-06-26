@@ -22,7 +22,7 @@ int main()
 
  char c,ch;
 
- printf("Enter the no.of productions: ");
+ printf("Enter the no.of productions:. ");
 
 scanf("%d", &n);
 
