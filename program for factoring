@@ -24,7 +24,8 @@ int main()
     }
     newGram[j++]='|';
     for(i=pos;part2[i]!='\0';i++,j++){
-        newGram[j]=part2[i];
+        newGram[j]=part2[i];.
+
     }
     modifiedGram[k]='X';
     modifiedGram[++k]='\0';
