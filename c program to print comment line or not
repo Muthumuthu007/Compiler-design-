@@ -15,6 +15,6 @@ int main()
         
     else
     {
-        printf("\nIt is Not a Comment.");
+        printf("\nIt is Not a Comment:");
     }
 }
