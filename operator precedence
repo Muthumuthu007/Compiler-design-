@@ -6,7 +6,7 @@ int main() {
    int d = 5;
    int e;
    e = (a + b) * c / d;      
-   printf("Value of (a + b) * c / d is : %d\n",  e );
+   printf("Value of (a + b) * c / d is : %d.\n",  e );
    e = ((a + b) * c) / d;    
    printf("Value of ((a + b) * c) / d is  : %d\n" ,  e );
    e = (a + b) * (c / d);   
