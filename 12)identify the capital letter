@@ -1,6 +1,6 @@
 %{
 %}
-[A-Z]+ {printf("%s",yytext);}
+[A-Z]+ {printf("%s,",yytext);}
 . ;
 %%
 int yywrap(void){
