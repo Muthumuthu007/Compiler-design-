@@ -4,7 +4,7 @@
 
 void main()  {
 
-    char input[100],l[50],r[50],temp[10],tempprod[20],productions[25][50];
+    char input[100],l[50],r[50],temp[10],tempprod[20],production ,s[25][50];
 
     int i=0,j=0,flag=0,consumed=0;
 
