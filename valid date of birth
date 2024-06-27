@@ -5,7 +5,7 @@
 
 int main()
 {
- yylex(),;
+ yylex();
  return 0;
 }
 int yywrap()
